@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "鬼ごっこ v2",
+    "description": "Created by Riii3393",
+    "uuid": "118b5da9-bf48-4f1c-9c42-4e687b6ae8a3",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "118b5da9-bf48-4f1c-9c42-4e687b6ae8a1",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.19.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}
